@@ -1,0 +1,3 @@
+filename = input(" enter the file name which you want to open:-")
+f_extns = filename.split(".")
+print("The extension of the file which you enter is :-" +repr(f_extns[-1]))
